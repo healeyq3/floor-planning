@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 from relative_position_graph import create_dags
-from construct_gp import find_floor_placement
+from construct_gp_v2 import find_floor_placement
 
 def draw_graph(G: nx.Graph):
     plt.figure()
