@@ -1,6 +1,8 @@
 import networkx as nx
 import cvxpy as cp
 
+#### STILL WORKING ON -> was using this to experiment with my previous incorrect GGP formulation.
+
 def generate_sources(G: nx.DiGraph) -> list:
     return [node for node, indegree in G.in_degree() if indegree == 0]
 
